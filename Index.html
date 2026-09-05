@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>داشبورد کارتخوان</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #07111f 0%, #0e1b2d 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #e8f0fa;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #38bdf8;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px 24px;
+            margin: 12px 0;
+            background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+            transition: transform 0.2s;
+        }
+        .btn:active { transform: scale(0.98); }
+        .btn-secondary {
+            background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+            box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3);
+        }
+        .icon { font-size: 48px; margin-bottom: 20px; }
+        .note {
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            font-size: 13px;
+            color: #91a3b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📊</div>
+        <h1>داشبورد تحلیل کارتخوان</h1>
+
+        <a href="dashboard-mobile-optimized.html" class="btn">
+            🚀 باز کردن داشبورد
+        </a>
+
+        <a href="file-1.html" class="btn btn-secondary">
+            📄 نسخه اصلی
+        </a>
+
+        <div class="note">
+            💡 اگر دکمه‌ها کار نکردند، فایل dashboard-mobile-optimized.html را مستقیماً در مرورگر باز کنید
+        </div>
+    </div>
+</body>
+</html>
